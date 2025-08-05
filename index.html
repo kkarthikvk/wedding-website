@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ashwin & Pooja - Wedding Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="floating-hearts">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="save-the-date">With love, laughter, and just a little bit of chaos, we invite you to witness two lobsters tying the knot!</div>
+                <h1 class="couple-names">
+                    <span class="name">Ashwin</span>
+                    <span class="ampersand">&</span>
+                    <span class="name">Pooja</span>
+                </h1>
+                <div class="wedding-date">Save The Date</div>
+                
+                <!-- Scroll Down Indicator -->
+                <div class="scroll-down-container">
+                    <p>SCROLL DOWN</p>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="hero-bg-image">
+            <img src="images/hero-background.jpg" alt="Wedding Background">
+        </div>
+    </section>
+
+    <!-- Wedding Details Section -->
+    <section class="wedding-details">
+        <div class="container">
+            <div class="section-header">
+                <h2>Wedding Celebrations</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="combined-event-card">
+                <div class="event-details-container">
+                    <!-- Reception -->
+                    <div class="event-detail">
+                        <div class="event-icon">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <h3>Reception</h3>
+                        <div class="event-details">
+                            <p class="date">August 28th, 2025</p>
+                            <p class="time">6:30 PM</p>
+                        </div>
+                    </div>
+
+                    <!-- Marriage -->
+                    <div class="event-detail">
+                        <div class="event-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Marriage Ceremony</h3>
+                        <div class="event-details">
+                            <p class="date">August 29th, 2025</p>
+                            <p class="time">9:30 AM - Muhurtham</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue and Map -->
+                <div class="venue-map-container">
+                    <div class="venue-info">
+                        <h3>Venue Location</h3>
+                        <p class="venue-name">JK Mahal, Veeramanikapuram, Melapalayam, Tirunelveli, Tamil Nadu 627005</p>
+                    </div>
+                    <a href="https://maps.app.goo.gl/q6WBdzJyKK1mPzqb6" target="_blank" class="location-btn">
+                        <i class="fas fa-map-marker-alt"></i>
+                        View on Google Maps
+                    </a>
+                </div>
+                
+                <!-- Countdown Timer -->
+                <div class="countdown-container">
+                    <h3>Countdown to Our Big Day</h3>
+                    <div id="countdown">
+                        <div class="countdown-item">
+                            <span id="days">00</span>
+                            <span class="countdown-label">Days</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="hours">00</span>
+                            <span class="countdown-label">Hours</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="minutes">00</span>
+                            <span class="countdown-label">Minutes</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="seconds">00</span>
+                            <span class="countdown-label">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GIF Section (placeholder for future GIF integration) -->
+    <section class="gif-section" id="gifSection" style="display: none;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="gif-container">
+                <img id="storyGif" src="" alt="Our Story GIF" class="story-gif">
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="photo-gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Journey</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Photos will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>We can't wait to celebrate with you!</p>
+            <div class="hearts">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Photo Modal -->
+    <div class="photo-modal" id="photoModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="" alt="" id="modalImage">
+            <div class="modal-nav">
+                <button class="nav-btn prev-btn" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="nav-btn next-btn" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
