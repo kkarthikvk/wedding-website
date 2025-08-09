@@ -29,7 +29,6 @@ function loadGalleryImages() {
     
     // New photo list with 8 images
     const photos = [
-        'JS1_1364.jpg',
         'JS1_1841.jpg', 
         'JS1_1561.jpg',
         'JS1_1972.jpg',
@@ -154,7 +153,7 @@ function initModal() {
 
 // Current image index in the modal
 let currentImageIndex = 0;
-const photos = ['JS1_1364.jpg', 'JS1_1841.jpg', 'JS1_1561.jpg', 'JS1_1972.jpg', 'JS1_1294.jpg', 'JS1_1138.jpg', 'JS1_0824.jpg', 'JS1_1073.jpg'];
+const photos = ['JS1_1841.jpg', 'JS1_1561.jpg', 'JS1_1972.jpg', 'JS1_1294.jpg', 'JS1_1138.jpg', 'JS1_0824.jpg', 'JS1_1073.jpg'];
 
 // Open the modal with a specific image
 function openModal(imagePath) {
